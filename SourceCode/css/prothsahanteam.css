@@ -1,0 +1,3716 @@
+/**
+ Name: Jupsoft Technologies
+Author: Akhil
+url : akhilsharma.co
+*/
+
+body
+{
+    font-size: 16px;
+}
+
+a:focus,
+a:hover,
+a:active
+{
+    outline: medium none !important;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #00C851;
+}
+
+::selection {
+    color: #fff; 
+    background: #00C851;
+}
+#footer
+{
+    background: #32302F !important;
+}
+
+#header
+{
+    background: #fff !important;
+}
+
+.head
+{
+    text-transform: uppercase;
+    padding: 20px 0 30px;
+    color: #00C851;
+    font-weight: 500!important;
+}
+
+.head-red
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500!important;
+    color: #ff4444;
+    border-bottom-color: #ff4444!important;
+}
+
+.heading-red
+{
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500!important;
+    color: #ff4444;
+    border-bottom-color: #ff4444!important;
+}
+
+p
+{
+    font-size: 16px;
+}
+
+.p-green
+{
+    color: #00C851!important;
+    font-weight: 600;
+}
+
+.lowerclass
+{
+    text-transform: lowercase !important;
+}
+
+.modal-open
+{
+    overflow-y: scroll !important;
+    padding: 0 !important;
+}
+
+.paddingtop20
+{
+    padding-top: 20px;
+}
+
+.contact-form h2
+{
+    margin-bottom: 36px;
+    color: #00C851;
+    font-weight: 500!important;
+}
+
+.breadcrumb-section
+{
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: multiply;
+    background-image: url(../img/prothsahan_sectionBG.jpg)!important;
+}
+
+    .breadcrumb-section h1
+    {
+        color: #fff;
+    }
+
+.breadcrumb > li + li::before
+{
+    color: #fff !important;
+}
+
+.breadcrumb > .active
+{
+    color: #fff;
+}
+
+.breadcrumb li a
+{
+    color: #fff;
+}
+
+article.blog h2
+{
+    margin-bottom: 14px;
+    font-weight: 300;
+    color: #00C851;
+    font-weight: 500!important;
+}
+.our-causes .slides>li {
+    float: left;
+    width: 350px;
+    list-style: none!important;
+    margin-right: 30px;
+}
+.our-causes {
+    background: #fff;
+    padding: 10px 0 75px;
+}
+.navbar-default
+{
+    background-color: #00C851;
+    border-color: #007E33;
+}
+
+img.wp-smiley,
+img.emoji
+{
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.galllery-data
+{
+    width: 100%;
+    float: left;
+    margin: 15px 0 30px 0;
+    border: 1px solid #ccc;
+    padding: 15px 5px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 6px 9px rgba(0,0,0,0.25);
+}
+
+.media.border
+{
+    padding: 4px;
+    box-sizing: border-box;
+    height: 425px;
+}
+
+    .media.border .media-body
+    {
+        width: 100%;
+        display: block;
+    }
+
+.navbar-default .navbar-form
+{
+    border-color: #ecc731;
+}
+.testimonial-slider {
+    margin-bottom: 0;
+    padding: 74px 0px!important;
+    position: relative;
+}
+
+.youtube-player
+{
+    position: relative;
+    padding-bottom: 65.23%;
+    padding-top: 5.5px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .youtube-player iframe
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+
+    .youtube-player img
+    {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+
+        .youtube-player img:hover
+        {
+            -webkit-filter: brightness(75%);
+        }
+
+.h4-branch
+{
+    font-weight: bold;
+    color: #ff4444;
+    border-bottom-color: #ff4444;
+}
+
+.youtube-player .play
+{
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    /* background: url("//i.imgur.com/TxzC70f.png") no-repeat;*/
+    cursor: pointer;
+}
+
+.article-list .items h3
+{
+    font-size: 15px;
+    min-height: 35px;
+}
+
+.parallax-section h2
+{
+    color: #fff;
+}
+
+.our-causes .flex-control-paging
+{
+    margin-bottom: 0px;
+}
+
+.testimonial-slider blockquote footer
+{
+    margin-bottom: 5px;
+}
+
+.testimonial-slider blockquote p
+{
+    font-size: 16px;
+}
+
+.parallax-section p
+{
+    color: #ffffff !important;
+}
+
+.parallax-section .btn
+{
+    color: #fff;
+}
+
+.social-icons li a i
+{
+    color: #32302F;
+}
+
+.bannerbtn
+{
+    text-transform: capitalize;
+}
+
+.navbar-nav li > .dropdown-menu
+{
+    background: #00b448;
+    opacity: 1.0;
+}
+
+.hesperiden .tp-bullet
+{
+    border: 3px solid #00C851!important;
+    background: transparent!important;
+}
+
+    .hesperiden .tp-bullet:hover, .hesperiden .tp-bullet.selected
+    {
+        background: #00C851!important;
+    }
+
+.bannerbtn a
+{
+    margin-top: 20px !important;
+    float: left;
+    color: #ffffff;
+    padding: 12px 31px !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    border: 1px solid #ffffff !important;
+    text-transform: uppercase !important;
+    font-family: 'latoblack', sans-serif;
+}
+
+    .bannerbtn a:hover
+    {
+        color: #fff;
+        background-color: #ecc731 !important;
+        border-color: #ecc731 !important;
+    }
+
+.tp-parallax-wrap .btn-default
+{
+    border-color: #fff;
+    color: #fff;
+}
+
+.testimonial-slider h2
+{
+    color: #32302f;
+}
+
+h2 strong, .h2 strong
+{
+    border-bottom-color: #00C851 !important;
+    color: #00C851;
+}
+
+.testimonial-slider blockquote p
+{
+    color: #32302f;
+}
+
+.testimonial-slider blockquote footer span, .testimonial-slider blockquote cite
+{
+    color: #32302f;
+}
+
+.overlay
+{
+    background: #fbfaf8;
+}
+
+
+
+.help-list .media
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.testimonial-slider .flex-control-paging a
+{
+    border: 2px solid #32302f !important;
+}
+
+    .testimonial-slider .flex-control-paging a.flex-active
+    {
+        background: #32302f !important;
+    }
+
+.testimonial
+{
+    background: none !important;
+}
+
+.testimonial-slider blockquote footer .more-link.btn.btn-default
+{
+    margin: 25px auto 0;
+}
+
+.our-causes h2
+{
+    font-weight: 300;
+    margin-bottom: 0 !important;
+}
+
+.help-list .media h3
+{
+    margin-bottom: 0;
+}
+
+.media-body p
+{
+    margin: 0 !important;
+}
+
+.media > .pull-left.warning-icon-box
+{
+    margin-right: 20px;
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+    /*.adjustbannertextformobile{
+            font-size: 12px !important;
+    width: 72% !important;
+    line-height: 20px !important;
+    left: -24px !important;
+        }*/
+    .adjustbannertextformobile;
+
+{
+    display: none;
+}
+
+#slide-23-layer-3 strong
+{
+    font-size: 11px !important;
+}
+
+#slide-1-layer-5
+{
+    top: 53px;
+}
+
+#slide-2-layer-3
+{
+    top: 40px;
+}
+
+.bannerbtn a
+{
+    width: 170px !important;
+    text-align: center;
+    padding: 15px 0 10px !important;
+}
+
+.how-to-help .help-list .media h3
+{
+    margin-bottom: 0;
+}
+
+.media
+{
+    float: left;
+    width: 100%;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .tp-caption;
+
+{
+    left: 150px !important;
+}
+
+.media
+{
+    float: left;
+    width: 50%;
+    margin-bottom: 5px !important;
+}
+
+.threegridhomecontainer .items .h6
+{
+    min-height: 70px;
+    font-size: 13px;
+}
+
+.embed-responsive img
+{
+    float: left;
+    width: 100%;
+}
+
+.embed-responsive iframe
+{
+    float: left;
+    width: 100%;
+}
+
+.media-body p
+{
+    font-size: 13px;
+}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .tp-caption;
+
+{
+    left: 150px !important;
+}
+
+}
+
+.help-list .media
+{
+    margin: 0;
+}
+
+@media(min-width:320px) and (max-width:479px)
+{
+    .media > .pull-left.warning-icon-box;
+
+{
+    margin-right: 10px;
+    max-width: 60px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.parallax-section
+{
+    background-size: cover;
+    background-position: center center !important;
+}
+
+}
+
+@media(min-width:480px) and (max-width:639px)
+{
+    .media > .pull-left.warning-icon-box;
+
+{
+    margin-bottom: 5px;
+}
+
+}
+
+@media(min-width:640px) and (max-width:767px)
+{
+    .embed-responsive-16by9 img;
+
+{
+    width: 100%;
+}
+
+.help-list .media
+{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+}
+
+.lowerclass
+{
+    text-transform: lowercase !important;
+}
+
+.modal-header h2
+{
+    color: #000 !important;
+}
+
+.youtube-player
+{
+    position: relative;
+    padding-bottom: 65.23%;
+    padding-top: 5.5px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .youtube-player iframe
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+
+    .youtube-player img
+    {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+
+        .youtube-player img:hover
+        {
+            -webkit-filter: brightness(75%);
+        }
+
+    .youtube-player .play
+    {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        /* background: url("//i.imgur.com/TxzC70f.png") no-repeat;*/
+        cursor: pointer;
+    }
+/*    iframe[name='google_conversion_frame']
+{
+font-size:0 !important;
+height:0 !important;
+line-height:0 !important;
+margin-top:-13px;
+width:0 !important;
+position: fixed;
+z-index: -99;
+}*/
+
+
+
+/*Award badge in the center of the page*/
+*
+{
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+/*.vertical-wrapper {
+    position: fixed;
+    left: -123px;
+    top:60%;
+    z-index: 9;
+}*/
+.vertical-wrapper
+{
+    position: fixed;
+    left: 0px;
+    top: 60%;
+    z-index: 9;
+}
+
+.vertical
+{
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    padding: 1em 9px;
+    text-transform: uppercase;
+    background-color: #32312f;
+    color: #ffffff;
+    width: 38px;
+    float: left;
+    font-weight: 300;
+    font-family: Lato;
+    line-height: 22px;
+    border-right: 3px solid #d6b014;
+    text-align: center;
+}
+/*.vertical-wrapper:hover{
+    z-index:10;
+	left:0px;
+	-moz-transition: left 0.5s ease-in-out;
+-webkit-transition: left 0.5s ease-in-out;
+-o-transition: left 0.5s ease-in-out;
+transition: left 0.5s ease-in-out;
+}
+.vertical-wrapper:hover .vertical {
+    margin-left: -97%;
+}*/
+.vertical-content
+{
+    background-color: #ffffff;
+    color: #ffffff;
+    float: left;
+    width: 122px;
+    box-shadow: 2px 0px 6px 1px rgba(0, 0, 0, 0.31);
+}
+
+    .vertical-content p
+    {
+        width: auto;
+    }
+
+    .vertical-content img
+    {
+        width: 100%;
+        float: left;
+        padding: 2px 11px 2px 11px;
+    }
+
+.vertical-content
+{
+    /* border: 2px solid grey; */
+}
+
+    .vertical-content p:first-child img
+    {
+        padding-bottom: 0;
+    }
+
+
+/*------------Award Badge End----------------*/
+
+
+/*------project people content big-reducing--------------*/
+
+/*.post-5857 a.more-link.btn.btn-default {
+    margin-top: 2px !important;
+}*/
+
+/*-------------------------------------------------------*/
+
+
+/**************Home Page Banner Color Overlay****************/
+.parallax-section
+{
+    background-color: RGBA(0, 0, 0, 0.62);
+    background-blend-mode: multiply;
+}
+
+.tp-bgimg.defaultimg
+{
+    background-blend-mode: multiply;
+    /*background-color: RGBA(0, 0, 0, 0.45) !important;*/
+}
+
+article.blog p
+{
+    margin-bottom: 14px !important;
+    color: #000000;
+}
+/**************Home Page Banner Color Overlay****************/
+.testimonial-slider blockquote p
+{
+    position: relative;
+}
+
+    .testimonial-slider blockquote p::before
+    {
+        content: "\f10d";
+        font-family: fontAwesome;
+        position: absolute;
+        z-index: 1;
+        top: -25px;
+        left: -25px;
+    }
+
+    .testimonial-slider blockquote p::after
+    {
+        content: "\f10e";
+        font-family: fontAwesome;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: -16px;
+    }
+
+a.bannerbutton
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bannerbutton
+{
+    float: left;
+    padding: 5px 30px !important;
+    background-color: #ecc731;
+    border-radius: 5px;
+    margin-top: 20px !important;
+}
+/**************Corporates CSS**********************/
+.CorporatePartnerships ul li
+{
+    float: left;
+    width: 100%;
+}
+
+
+/*********************End Corporates CSS***************/
+/**************Other Ways to Doante CSS****************/
+.donationdiv .title
+{
+    border-bottom: 1px solid #5d5d5d;
+    margin: 0 0 20px;
+}
+
+    .donationdiv .title h3
+    {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 5px;
+        text-transform: uppercase;
+    }
+
+/**************Other Ways to Doante CSS****************/
+/************************Header CSS***********************/
+.search-form .form-control
+{
+    text-transform: uppercase;
+}
+
+.partners
+{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+}
+
+    .partners ul
+    {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+        .partners ul li:before
+        {
+            content: "/";
+            padding: 0 10px;
+        }
+
+        .partners ul li:first-child:before
+        {
+            content: "";
+        }
+
+        .partners ul li
+        {
+            display: inline-block;
+        }
+
+            .partners ul li a
+            {
+                color: #ffffff;
+            }
+
+.btn-volunteerreverse
+{
+    padding: 11px 31px !important;
+    float: right;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: 600;
+    font-family: "latoblack",sans-serif !important;
+    font-weight: normal !important;
+    background-color: #ffbb33!important;
+    color: #fff!important;
+    border-color: #ffbb33;
+}
+
+    .btn-volunteerreverse:hover
+    {
+        background-color: #FF8800 !important;
+        border-color: #FF8800;
+    }
+
+.btn-volunteer
+{
+    background-color: #ff4444;
+    color: #fff;
+    border-color: #ff4444;
+}
+
+    .btn-volunteer:hover
+    {
+        background-color: #CC0000;
+        color: #fff;
+        border-color: #CC0000;
+    }
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .honorrolllists ul li;
+
+{
+    width: 25px !important;
+}
+
+.newsletter-social-icon form input[type="submit"]
+{
+    padding: 10px 12px;
+}
+
+}
+
+@media(min-width:320px) and (max-width:479px)
+{
+    #header.fixed;
+
+{
+    position: relative !important;
+    top: 0 !important;
+}
+
+#wrapper
+{
+    padding: 0 !important;
+}
+
+#header.up
+{
+    opacity: 1 !important;
+    visibility: visible;
+}
+
+.primary-header .brand
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.primary-header .social-links
+{
+    float: left;
+    width: 100%;
+}
+
+.btn-volunteer, .btn-volunteerreverse
+{
+    float: none;
+}
+
+.primary-header .social-links a
+{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.partners
+{
+    float: left;
+    width: 100%;
+}
+
+    .partners ul li::before
+    {
+        content: "" !important;
+        padding: 0 !important;
+    }
+
+    .partners .title
+    {
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+
+    .partners ul li
+    {
+        padding-left: 10px;
+    }
+
+}
+
+@media(min-width:480px) and (max-width:767px)
+{
+    #header.fixed;
+
+{
+    position: relative !important;
+    top: 0 !important;
+}
+
+#wrapper
+{
+    padding: 0 !important;
+}
+
+#header.up
+{
+    opacity: 1 !important;
+    visibility: visible;
+}
+
+form.navbar-right:last-child
+{
+    float: left;
+}
+
+.menu-header-menu-container .nav li
+{
+    float: left;
+    width: 100%;
+}
+
+.partners ul li
+{
+    padding-left: 5px;
+}
+
+.primary-header .brand
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.primary-header .social-links
+{
+    float: left;
+    width: 50%;
+}
+
+.btn-volunteer, .btn-volunteerreverse
+{
+    float: none;
+}
+
+.primary-header .social-links a
+{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.partners
+{
+    float: left;
+    width: 100%;
+}
+
+    .partners ul li::before
+    {
+        content: "" !important;
+        padding: 0 !important;
+    }
+
+    .partners .title
+    {
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+
+.navbar-form.navbar-right:last-child
+{
+    position: relative;
+    width: 100%;
+}
+
+}
+
+@media(min-width:640px) and (max-width:767px)
+{
+    .menu-header-menu-container;
+
+{
+    float: left;
+    width: 100%;
+}
+
+.menu-header-menu-container .nav
+{
+    float: left;
+    width: 100%;
+}
+
+    .menu-header-menu-container .nav li
+    {
+        float: left;
+        padding: 0 15px;
+    }
+
+}
+
+/**************************End Header CSS**************************/
+/*********************Home Page Read More Button****************/
+.our-causes .items .btn
+{
+    margin: 15px auto;
+}
+
+/*********************End Home Page Read MOre Button***********/
+
+
+/*************Customised CSS by IVDS********************/
+.progress-bar
+{
+    display: none !important;
+}
+
+
+/*****************OLD Backup********************/
+.ch-number
+{
+    padding: 20px 0px !important;
+}
+/************************Header CSS***********************/
+
+.partners
+{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+}
+
+    .partners ul
+    {
+        margin-bottom: 0;
+    }
+
+        .partners ul li:before
+        {
+            content: "/";
+            padding: 0 10px;
+        }
+
+        .partners ul li:first-child:before
+        {
+            content: "";
+        }
+
+        .partners ul li
+        {
+            display: inline-block;
+        }
+
+            .partners ul li a
+            {
+                color: #ffffff;
+            }
+
+/*.btn-volunteerreverse{
+    padding: 11px 31px !important;
+    float: right;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 12px !important;
+    font-family: "latoblack",sans-serif !important;
+    font-weight: normal !important;
+    background-color: #ecc731;
+    color: #32302f;
+}*/
+/*.btn-volunteerreverse:hover{
+  background-color: #d96c2f !important;
+}*/
+/*.btn-volunteer {
+background-color: #32302f;
+color: #ecc731;
+
+}
+.btn-volunteer:hover {
+background-color: #ecc731;
+color: #32302f;
+   
+}*/
+@media(min-width:992px) and (max-width:1199px)
+{
+    .honorrolllists ul li;
+
+{
+    width: 25px !important;
+}
+
+}
+
+/********************History Page CSS**********************/
+.buttonshistory
+{
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+}
+
+    .buttonshistory a
+    {
+        text-decoration: none;
+        background-color: #ffbb33;
+        color: #ffffff;
+        padding: 20px 0px;
+        display: block;
+        font-size: 21px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+
+
+        .buttonshistory a:hover
+        {
+            background-color: #FF8800;
+        }
+        .buttonsregister
+{
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+}
+.career-heading
+{
+    font-weight: bold!important;
+    border-bottom: 2px solid #ff4444;
+    padding-bottom: 5px;
+    color: #ff4444;
+}
+    .buttonsregister a
+    {
+        text-decoration: none;
+        /*background-color: #ffbb33;*/
+        color: #ffffff;
+        padding: 20px 0px;
+        display: block;
+        font-size: 21px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+
+.historydiv .quote
+{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+    .historydiv .quote b
+    {
+        font-size: 16px;
+    }
+
+    .buttoncareer
+{
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+}
+
+    .buttoncareer a
+    {breadcrumb-section
+        text-decoration: none;
+        background-color: #00C851;
+        color: #ffffff;
+        padding: 20px 0px;
+        display: block;
+        font-size: 21px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+
+.event-icon
+{
+    max-width: 50px;
+}
+        .buttoncareer a:hover
+        {
+            background-color: #007E33;
+        }
+/**********************End History Page CSS*********************/
+
+
+/**************************End Header CSS**************************/
+/*********************Home Page Read More Button****************/
+.our-causes .items .btn
+{
+    margin: 15px auto;
+}
+
+/*********************End Home Page Read MOre Button***********/
+
+
+/*************Customised CSS by IVDS********************/
+article.blog h2
+{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 30px;
+}
+
+.content-wrapper article.blog
+{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+{
+    float: left;
+}
+
+.wpb_wrapper
+{
+    float: left;
+    width: 100%;
+}
+
+.progress-bar
+{
+    display: none !important;
+}
+
+.article-list-large .donation
+{
+    display: none;
+}
+
+.btn.btn-default.pull-right.charity-donation-button
+{
+    display: none;
+}
+
+.detail-description a.btn-default
+{
+    display: none;
+}
+
+.vc_row.wpb_row.vc_row-fluid
+{
+    float: left;
+    width: 100%;
+}
+
+.borderright
+{
+    border-right: 1px solid #6b6864;
+}
+
+.changeenableddiv
+{
+    float: left;
+    width: 100%;
+}
+
+.changeenableddivtitle
+{
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.changeenableddivdetails p
+{
+    margin: 0px !important;
+}
+
+.changeenableddivdetails
+{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    float: left;
+    width: 100%;
+}
+
+.changeenableddiv section
+{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.changeenableddivdetails .figcaption
+{
+    font-size: 12px;
+    float: left;
+    width: 65%;
+}
+
+.changeenableddivdetails .fig
+{
+    float: left;
+    width: 35%;
+}
+
+.changeenableddivdetails .figcaption span
+{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.block
+{
+    float: left;
+    width: 100%;
+}
+
+.honorrollsubsection
+{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+    .honorrollsubsection img
+    {
+        float: left;
+        padding-right: 20px;
+    }
+
+@media(min-width:320px) and (max-width:767px)
+{
+    .honorrollsubsection .col-xs-6;
+
+{
+    width: 50%;
+    float: left;
+}
+
+}
+
+.socialmediadiv
+{
+    float: left;
+    width: 100%;
+}
+
+    .socialmediadiv ul
+    {
+        display: table;
+        margin: 0 auto;
+    }
+
+        .socialmediadiv ul li
+        {
+            list-style: none;
+            display: inline-block;
+            width: 40px;
+            text-align: center;
+            float: left;
+        }
+
+            .socialmediadiv ul li a
+            {
+                text-decoration: none;
+                color: #32302f;
+                font-size: 15px;
+                border-radius: 50%;
+                border: 1px solid;
+                width: 30px;
+                display: inline-block;
+                height: 30px;
+                padding-left: 2px;
+                line-height: 27px;
+                transition: all 0.5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+            }
+
+                .socialmediadiv ul li a:hover
+                {
+                    background-color: #32302f;
+                    color: #fff;
+                }
+
+/*************Customised CSS by IVDS********************/
+
+/*******************CSS For People Details Page*************/
+.sectionpeopledivtitle h4
+{
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #ecc731;
+}
+
+.mediafellowshippersonsdetails h4
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 10px !important;
+}
+
+.peopledetails h4
+{
+    margin: 0;
+    color: #32302f;
+}
+
+.peopledesignation
+{
+    font-size: 16px;
+    padding: 5px 0;
+    font-style: italic;
+}
+
+.peopledetails .personimage
+{
+    text-align: center;
+}
+
+    .peopledetails .personimage img
+    {
+        display: inline;
+        width: auto;
+    }
+
+.peopledetails .persondetails
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #727272;
+}
+
+.peopledetails
+{
+    min-height: 175px;
+    padding: 10px;
+    border: 1px dotted #c3c3c3;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .peopledetails;
+
+{
+    min-height: 210px;
+}
+
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+    .peopledetails;
+
+{
+    text-align: center;
+}
+
+}
+
+
+/*******************End CSS For People Details Page*************/
+
+
+/*****************CSS For PortFolio************/
+@media(min-width:320px) and (max-width:767px)
+{
+    .we-help .thumbnail;
+
+{
+    min-height: auto !important;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .we-help .thumbnail .h3 > a;
+
+{
+    font-size: 12px;
+}
+
+.we-help .gallery .thumbnail h3
+{
+    margin-top: 0;
+}
+
+.we-help .thumbnail > p
+{
+    font-size: 12px;
+    min-height: 130px;
+}
+
+.we-help .thumbnail
+{
+    /* min-height: 295px;*/
+}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .we-help .gallery .thumbnail h3 a;
+
+{
+    font-size: 15px;
+}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .we-help .thumbnail > p;
+
+{
+    /*min-height: 150px;*/
+    font-size: 13px;
+}
+
+}
+
+.we-help .thumbnail:hover
+{
+    border-color: #00C851!important;
+}
+
+.we-help .thumbnail
+{
+    margin-bottom: 25px!important;
+    padding: 20px 10px!important;
+    border: 1px solid #ddd!important;
+    float: left;
+    width: 100%;
+}
+
+    .we-help .thumbnail .h3
+    {
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+    .we-help .thumbnail p
+    {
+        text-align: center;
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+.we-help .gallery .thumbnail h3 a
+{
+    text-align: center;
+}
+
+.thumbnail.embed-image a
+{
+    margin: 0 auto;
+    display: table;
+    padding: 5px 10px;
+    /*color: #32302f;*/
+}
+
+.color-readmore-team
+{
+    color: #d6b014;
+}
+
+    .color-readmore-team:hover
+    {
+        background-color: #ecc731;
+        color: #32302f;
+    }
+/*****************CSS For PortFolio************/
+.honorrolllists
+{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+    .honorrolllists ul
+    {
+        display: table;
+        margin: auto;
+    }
+
+        .honorrolllists ul li
+        {
+            list-style: none;
+            display: inline-block;
+            width: 30px;
+            font-size: 15px;
+        }
+
+            .honorrolllists ul li a
+            {
+                transition: all 0.5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                text-align: center;
+                display: inline-block;
+                width: 30px;
+                color: #727272;
+            }
+
+                .honorrolllists ul li a:hover
+                {
+                    color: #B7A045 !important;
+                }
+
+                .honorrolllists ul li a.selected
+                {
+                    background-color: #ECC731 !important;
+                    color: #323232;
+                    width: 26px;
+                    display: inline-block;
+                    text-align: center;
+                }
+
+/***************Campaigns*************/
+.campaign
+{
+    float: left;
+    width: 100%;
+}
+
+.campaignback
+{
+    position: relative;
+    display: inline-block;
+}
+
+    .campaignback::after
+    {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        background-color: RGBA(32, 8, 3, 0.6);
+    }
+
+.campaignsreadmore
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-30px);
+}
+
+.campaignsfront:hover .campaignsreadmore
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.campaignsreadmore > a
+{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #ecc731;
+    padding: 5px 15px;
+}
+
+.campaigncontent
+{
+    position: relative;
+    margin-bottom: 20px !important;
+}
+
+.campaignback img
+{
+    float: left;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.campaignsfront
+{
+    position: absolute;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+    .campaignsfront:hover
+    {
+        background: #200803;
+    }
+
+    .campaignsfront h4
+    {
+        color: #fff;
+        margin: 0;
+        padding: 5px 0 0;
+    }
+
+    .campaignsfront article
+    {
+        color: #ffffff;
+        padding: 10px 10px;
+        margin: 0 !important;
+    }
+
+        .campaignsfront article a
+        {
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+    .campaignsfront p
+    {
+        color: #ECC731;
+        padding: 5px 10px;
+    }
+
+.bottomlink
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.campaignsfront a:hover
+{
+    color: #ffffff;
+}
+
+.campaignsfront a
+{
+    color: #ecc731;
+    font-size: 18px;
+}
+
+@media(min-width:320px) and (max-width:639px)
+{
+    .campaignsdivideformobile;
+
+{
+    float: left;
+    width: 100%;
+}
+
+}
+
+@media(min-width:640px) and (max-width:767px)
+{
+    .campaignsdivideformobile;
+
+{
+    float: left;
+    width: 50%;
+}
+
+}
+
+@media(min-width:768px) and (max-width:1199px)
+{
+    .campaignsfront article;
+
+{
+    font-size: 12px;
+    padding-bottom: 0px;
+    line-height: 15px;
+}
+
+.campaignsfront article a
+{
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+.campaignsfront ul li
+{
+    line-height: 18px !important;
+    font-size: 12px;
+}
+
+    .campaignsfront ul li a
+    {
+        font-size: 12px !important;
+    }
+
+}
+/****************Current Openings Section CSS*****************/
+.currentopenings h3
+{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #ecc731;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.currentopenings .panel-title
+{
+    background-color: #ddd;
+    padding: 5px 0;
+    text-indent: 20px;
+}
+
+.currentopenings .panel-heading a
+{
+    color: #000;
+}
+
+.panel-title i
+{
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    color: inherit;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    display: none;
+    margin-right: 10px;
+}
+
+.collapsed .panel-title .active
+{
+    display: block;
+}
+
+.collapsed .panel-title .inactive
+{
+    display: none !important;
+}
+
+.inactive
+{
+    display: none;
+}
+
+.link .panel-title .inactive
+{
+    display: block;
+}
+
+@media(min-width:320px) and (max-width:479px)
+{
+    .currentopenings .panel-title;
+
+{
+    text-indent: 0;
+    font-size: 10px;
+}
+
+.panel-title i
+{
+    font-size: 10px;
+}
+
+.currentopenings .panel-body
+{
+    font-size: 12px;
+}
+
+.partner-copy.flexblock
+{
+    width: 100%;
+    padding: 0 6px !important;
+    margin: 0;
+}
+
+.partner-copy .title
+{
+    float: left;
+}
+
+    .partner-copy .title a
+    {
+        width: auto;
+        padding: 0 0 0 6px;
+    }
+
+}
+
+@media(min-width:480px) and (max-width:640px)
+{
+    .currentopenings .panel-title;
+
+{
+    text-indent: 8px;
+    font-size: 11px;
+}
+
+.panel-title i
+{
+    font-size: 11px;
+}
+
+.currentopenings .panel-body
+{
+    font-size: 12px;
+}
+
+}
+
+/******************End Current Openings******************/
+/******************Testimonials**************************/
+.testimonials
+{
+    background-color: #f2ede9;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    .testimonials h3
+    {
+        margin: 0;
+        padding: 10px 0;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700 !important;
+    }
+
+    .testimonials p
+    {
+        color: #32302f;
+        text-align: justify;
+    }
+
+.flex
+{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    ;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.formdiv .form-group span
+{
+    font-weight: lighter;
+    width: 120px;
+    font-size: 18px;
+}
+
+.updownarrows .fa
+{
+    font-size: 14px;
+    color: #6b6864;
+}
+
+.form-group p
+{
+    margin: 0 !important;
+}
+
+.formdiv .form-group
+{
+    margin-bottom: 20px;
+}
+
+.form-group label
+{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+    .form-group label p
+    {
+        margin: 0;
+    }
+
+.form-group select
+{
+    float: left;
+    width: 100%;
+    height: 35px;
+}
+
+select:-moz-focusring
+{
+    color: transparent;
+    text-shadow: 1px 1px 0px #555;
+}
+
+.formdiv .radio input[type="radio"], .formdiv .radio-inline input[type="radio"], .formdiv .checkbox input[type="checkbox"], .formdiv .checkbox-inline input[type="checkbox"]
+{
+    margin-top: 23px;
+}
+
+@media(min-width:768px) and (max-width:1199px)
+{
+    .formdiv .radio input[type="radio"];
+
+{
+    margin-top: 22px;
+}
+
+}
+
+article.blog ul
+{
+    float: left;
+    width: 100%;
+}
+
+.formdiv .updownarrows
+{
+    text-align: center;
+}
+
+.formdiv .form-group .btn.btn-default
+{
+    display: table;
+    margin: 0 auto;
+}
+
+    .formdiv .form-group .btn.btn-default:hover
+    {
+        color: #32302F;
+    }
+
+.newsletter-social-icon form input[type="submit"]:hover
+{
+    color: #32302f !important;
+    background-color: #ecc731 !important;
+}
+
+.formdiv .form-group textarea
+{
+    resize: none;
+    height: 120px;
+}
+
+.wpcf7-form #submit:hover
+{
+    color: rgb(50, 48, 47);
+}
+
+#payment_method
+{
+    margin-top: 10px;
+}
+
+.formdiv .form-group input:focus, .formdiv .form-group textarea:focus
+{
+    /*background: transparent;*/
+    border: 1px solid #00C851;
+    box-shadow: 0px 0px 5px #00C851;
+}
+
+.form-control:focus
+{
+    background: transparent;
+}
+
+.onetimeformconfirm, .thankyoumessage
+{
+    display: none;
+}
+
+.monthlyformconfirm, .monthlythankyoumessage
+{
+    display: none;
+}
+
+.form-group label br:first-child
+{
+    display: none;
+}
+
+.one-time-payment-form-confirmation .btn-block
+{
+    margin: 0 auto;
+    width: 30%;
+    float: none;
+}
+
+.tahnkyou_popup_box strong
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.form-control
+{
+    background-color: transparent;
+}
+
+.one-time-payment-form-confirmation .radio
+{
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    border-bottom: 1px dashed;
+}
+
+    .one-time-payment-form-confirmation .radio + .radio
+    {
+        border-bottom: none;
+    }
+
+    .one-time-payment-form-confirmation .radio .flex
+    {
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+
+        .one-time-payment-form-confirmation .radio .flex img
+        {
+            margin-right: 5px;
+            border: 1px solid;
+            margin-bottom: 0px;
+        }
+
+        .one-time-payment-form-confirmation .radio .flex i
+        {
+            padding-left: 10px;
+            font-size: 20px;
+            color: #727272;
+        }
+
+.tooltip-inner
+{
+    padding: 5px 2px;
+    background-color: #d6b014;
+    color: #32302f;
+}
+
+.tooltip.top .tooltip-arrow
+{
+    border-top-color: #d6b014;
+}
+
+.taxdeclaration
+{
+    float: left;
+    width: 100%;
+    background-color: #ff4444;
+    color: #fff!important;
+}
+
+    .taxdeclaration h4
+    {
+        color: #fff;
+        margin: 0;
+        padding: 20px 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .taxdeclaration select
+    {
+        margin: 0 5px;
+        float: none;
+        width: 100px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .reference
+{
+    float: left;
+    width: 100%;
+    background-color: #ffbb33;
+    color: #fff!important;
+}
+
+    .reference h4
+    {
+        color: #fff;
+        margin: 0;
+        padding: 20px 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .reference select
+    {
+        margin: 0 5px;
+        float: none;
+        width: 100px;
+        font-size: 18px;
+        text-align: center;
+    }
+.blog ul li a:hover
+{
+    color: #ecc731 !important;
+}
+
+#foreigndonorsmonthly_donationform
+{
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid;
+    border-color: rgb(211, 219, 222) rgb(196, 205, 219) rgb(191, 201, 220);
+    padding: 10px;
+    border-radius: 9px;
+    display: table;
+    float: left;
+}
+
+.formdiv .form-group i
+{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #727272;
+}
+/*******************Projects Listing Page*******************/
+
+.has-post-thumbnail
+{
+    margin-bottom: 10px;
+    min-height: 350px;
+}
+
+.project-listing .charity-project h3
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    min-height: 94px;
+    /*  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+/*.charity-project h3 {
+    text-transform: uppercase;
+font-size: 18px;
+}*/
+.project-listing.project-details p, .project-listing.project-details blockquote
+{
+    margin-bottom: 0 !important;
+}
+
+.projectscontentdetailsdiv h5
+{
+    margin: 0;
+    padding: 20px 0 10px;
+}
+
+.projectscontentdetailsdiv
+{
+    margin: 20px 0;
+}
+/*******************Volunteer With Cry CSS****************/
+.volunteerbanner .flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.volunteerbanner
+{
+    position: relative;
+    overflow: hidden;
+    /*background-image: url("/wp-content/uploads/2015/04/volunteer-1.jpg");*/
+    background-color: rgb(231, 205, 0);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.banner-content
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.volunteerbanner h1
+{
+    margin: 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: #32302f;
+    font-size: 28px;
+}
+
+    .volunteerbanner h1 span
+    {
+        color: #ffffff;
+    }
+
+.volunteerbanner h3
+{
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+    .volunteerbanner h3 a
+    {
+        color: #32302f;
+    }
+
+.volunteerbanner .btn
+{
+    color: #32302f;
+    font-size: 20px;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    border: 2px solid #32302f;
+    border-radius: 0;
+    padding: 10px 30px 7px;
+    letter-spacing: 1px;
+}
+
+    .volunteerbanner .btn:hover
+    {
+        background-color: #32302f;
+        color: #fff;
+    }
+
+.videocontainer center
+{
+    float: left;
+    width: 100%;
+    background-color: #e7cd00;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: -7px;
+}
+
+    .videocontainer center a
+    {
+        color: #fff;
+    }
+
+.volunteeriwthusdiv strong
+{
+    font-size: 20px;
+    font-style: italic;
+}
+/*******************End Volunteer With Cry CSS****************/
+/***************Privacy Policy CSS**************/
+.privacypolicydiv ul li
+{
+    list-style: number;
+    padding-left: 10px;
+}
+
+    .privacypolicydiv ul li ul li
+    {
+        list-style: circle;
+    }
+
+.privacypolicydiv h2
+{
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    color: #ecc731;
+}
+/***************End Privacy Policy CSS**************/
+/***************Volunteer Voices*****************/
+
+.volunteervoices
+{
+    float: left;
+    width: 100%;
+    background-color: #f2ede9;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+    .volunteervoices h3
+    {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .volunteervoices p
+    {
+        color: #32302f;
+        margin-top: 10px;
+    }
+
+
+/*******************End Volunteer Voices*****************/
+/************Stories of Hope Adjust Min-Height***************/
+.content-wrapper .our-causes .article-list .charity-causes
+{
+    min-height: auto;
+}
+
+.spacer-bottom h3
+{
+    min-height: 40px;
+    font-size: 15px;
+}
+
+/************Child Rights Fellowships**************/
+.childrightfelloship h3
+{
+    margin: 0;
+    padding: 10px 0;
+    color: #ecc731;
+}
+
+.childrightfelloship ul li
+{
+    float: left;
+    width: 100%;
+    list-style: number;
+    line-height: 27px;
+}
+
+    .childrightfelloship ul li a
+    {
+        padding-left: 10px;
+    }
+
+        .childrightfelloship ul li a:hover
+        {
+            color: #ecc731 !important;
+            padding-left: 20px;
+        }
+/****************End Child Rights Fellowships***********************/
+/******************Financial Content******************/
+.financialscontent
+{
+    margin-bottom: 25px !important;
+    min-height: 310px;
+    background-color: #332900;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+    .financialscontent:hover
+    {
+        background: #ba9b1c;
+        -webkit-box-shadow: 0 0 10px #8e8d8d;
+        -moz-box-shadow: 0 0 10px #8e8d8d;
+        box-shadow: 0 0 10px #8e8d8d;
+        color: #e1e1e1;
+    }
+
+        .financialscontent:hover .more
+        {
+            color: #ddd;
+        }
+
+        .financialscontent:hover h2 a
+        {
+            color: #332900 !important;
+        }
+
+    .financialscontent h2
+    {
+        font-size: 20px;
+    }
+
+        .financialscontent h2 a
+        {
+            color: #fbd433 !important;
+        }
+
+    .financialscontent h2
+    {
+        color: #fbd433;
+    }
+
+    .financialscontent p
+    {
+        color: #fff;
+    }
+
+.more
+{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.financialsdiv p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 27px !important;
+}
+
+@media(min-width:320px) and (max-width:479px)
+{
+    .col-lg-4.col-md-4.col-sm-4.col-xs-6.financialsdivideformobile;
+
+{
+    float: left;
+    width: 100%;
+}
+
+}
+
+@media(min-width:480px) and (max-width:640px)
+{
+    .col-lg-4.col-md-4.col-sm-4.col-xs-6.financialsdivideformobile;
+
+{
+    float: left;
+    width: 50%;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .financialscontent;
+
+{
+    min-height: 390px;
+}
+
+.financialscontent p
+{
+    font-size: 11px;
+}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .financialscontent;
+
+{
+    min-height: 370px;
+}
+
+.project-listing .charity-project h3
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    min-height: 114px;
+    /*  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+
+}
+/***************Media CSS************************/
+.our-works .thumbnail
+{
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    box-shadow: none;
+    /*background: #e1e1e1;*/
+    min-height: 180px;
+    text-align: center;
+    border-radius: 0;
+}
+
+    .our-works .thumbnail:hover
+    {
+        border-color: #ecc731;
+    }
+
+.our-works h3
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 22px;
+}
+
+.our-works .charity-our-works .thumbnail .btn-default
+{
+    display: table;
+    margin: 0 auto;
+}
+
+
+/********************Volunteers*********************/
+.Childrightsleaders
+{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    background-color: #ddd;
+    padding: 15px 10px 5px;
+    margin-bottom: 10px;
+}
+
+.childrightsleadersprofile
+{
+    padding: 0px 10px;
+}
+
+    .childrightsleadersprofile h3
+    {
+        margin: 0;
+        font-size: 16px;
+    }
+
+
+
+.campaignsfront ul
+{
+    padding: 0px 10px;
+    float: left;
+    width: 100%;
+}
+
+    .campaignsfront ul li
+    {
+        float: left;
+        width: 100%;
+        text-align: left;
+        line-height: 22px;
+    }
+
+        .campaignsfront ul li a
+        {
+            font-size: 16px;
+        }
+
+        .campaignsfront ul li span
+        {
+            font-weight: bold;
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+
+.advocatediv p
+{
+    margin-bottom: 10px !important;
+}
+
+.advocatediv h2
+{
+    margin: 0;
+    color: #ecc731;
+    padding: 10px 0;
+}
+/******************Child Rights Leadership Programme****************/
+.childrightsleaderssocialicons ul
+{
+    display: table;
+    margin: 0 auto;
+}
+
+    .childrightsleaderssocialicons ul li
+    {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+        .childrightsleaderssocialicons ul li a
+        {
+            font-size: 30px;
+        }
+
+.ChildRightsLeaderProgrammediv h3
+{
+    margin: 0;
+    padding: 10px 0;
+    color: #ecc731;
+}
+
+.ChildRightsLeaderProgrammediv h5
+{
+    margin: 0px;
+}
+
+.ChildRightsLeaderProgrammediv ul
+{
+    margin: 0;
+}
+/***************Virtual Volunteer Page Css***************/
+.virtualvolunteeringdiv
+{
+    float: left;
+    width: 100%;
+}
+
+    .virtualvolunteeringdiv article
+    {
+        float: left;
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .virtualvolunteeringdiv h3
+    {
+        margin: 0;
+        padding: 10px 0;
+        color: #ecc731;
+    }
+
+    .virtualvolunteeringdiv ul
+    {
+        margin-bottom: 15px !important;
+        padding: 0;
+    }
+
+        .virtualvolunteeringdiv ul li
+        {
+            list-style: none;
+        }
+/*****************Donation Page*************************/
+/*.formdiv {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}*/
+.donationformtitle h3
+{
+    background-color: #32302f;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.donationpagetitle
+{
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.indian
+{
+    text-align: left;
+    border-bottom: 1px solid #e4e2de;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.donationdiv input.custominput
+{
+    width: 95px;
+    text-align: center;
+    margin-right: 28px;
+}
+
+.donationdiv .tab-content
+{
+    padding: 10px;
+}
+
+.donationdiv .nav-justified > li > a
+{
+    border: 1px solid #ddd;
+}
+
+.donationdiv .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+    color: #32302f !important;
+    background-color: #ecc731;
+}
+
+.donationaccordiandiv .panel-collapse
+{
+    float: left;
+}
+
+.donationdiv .nav > li > a:hover, .nav > li > a:focus
+{
+    background-color: #32302f;
+    color: #fff !important;
+}
+
+.panel-heading p
+{
+    display: none;
+}
+
+.donationaccordiandiv .panel-heading a
+{
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    text-indent: 20px;
+}
+
+.donationaccordiandiv .panel-title
+{
+    color: #333;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    background-color: #c4c4c4;
+}
+
+.content-top h2
+{
+    margin: 0;
+    padding: 5px 0;
+    background-color: #ddd;
+    text-indent: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid #333333;
+    border-radius: 5px;
+}
+
+.donationaccordiandiv .content-top h2
+{
+    padding: 5px 0;
+}
+
+.donationaccordiandiv .panel-body ul li p
+{
+    margin: 0;
+}
+
+.norightpad
+{
+    padding-right: 0;
+}
+
+.indianState p
+{
+    display: none;
+}
+
+.monthlyindianState p
+{
+    display: none;
+}
+
+.creditcarddetailstitle h4
+{
+    margin: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+    border-radius: 5px;
+    border-bottom: 2px solid #ecc731;
+    color: #ecc731;
+}
+/*******************Footer CSS****************************/
+.second-footer .footer-logo
+{
+    margin-bottom: -20px;
+}
+
+#footer .footer-logo a
+{
+    font-size: 27px;
+    float: left;
+    width: 100%;
+    margin: 0px 0 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.newsletter-social-icon .social-media-widget
+{
+    padding-top: 0;
+}
+
+#footer .social-icons
+{
+    margin: 0;
+}
+/**************Footer CSS*************/
+#footer address
+{
+    display: none;
+}
+
+#footer ul li a
+{
+    color: #8f8b89;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+    #footer ul li a:hover
+    {
+        color: #00C851;
+    }
+
+#footer .twitter-update a:hover
+{
+    color: #ecc731 !important;
+}
+
+.img-center
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.img-sponser
+{
+    padding: 2px;
+    border: 1px solid #fff;
+}
+
+.iframe-border
+{
+    padding: 1px;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+#footer h6:first-child
+{
+    font-weight: normal;
+    /*font-family: 'Playfair Display', serif;
+    font-style: italic;*/
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0px 35px;
+}
+
+#footer h6
+{
+    margin-bottom: 10px;
+}
+
+#footer ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+@media(min-width:640px) and (max-width:767px)
+{
+    .dividefooterformobileandtablet;
+
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .dividefooterformobileandtablet;
+
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+}
+
+}
+/****************Shop CSS***************/
+.thumbnailforshopcategories
+{
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px !important;
+    overflow: hidden;
+}
+
+    .thumbnailforshopcategories .caption h3
+    {
+        margin: 0;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+        .thumbnailforshopcategories .caption h3 a
+        {
+            color: #000;
+            text-transform: uppercase;
+        }
+
+    .thumbnailforshopcategories .caption a.button
+    {
+        font-size: 15px;
+        padding: 5px 10px;
+        border: 1px solid;
+        color: #000;
+    }
+
+        .thumbnailforshopcategories .caption a.button:hover
+        {
+            background-color: #ECC731;
+            color: #fff;
+        }
+
+/********************Header Part Alignment Fixes*********************/
+@media(min-width:480px) and (max-width:639px)
+{
+    .primary-header;
+
+{
+    padding: 5px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.primary-header .brand
+{
+    top: 0;
+}
+
+.bannerbtn a
+{
+    width: 168px;
+    text-align: center;
+}
+
+.btn-volunteerreverse, .btn-volunteer
+{
+    font-size: 8px !important;
+}
+
+}
+
+@media(min-width:640px) and (max-width:767px)
+{
+    .primary-header;
+
+{
+    padding: 5px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.primary-header .brand
+{
+    top: 0;
+}
+
+.bannerbtn a
+{
+    width: 168px;
+    text-align: center;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    #wrapper;
+
+{
+    padding: 0 !important;
+}
+
+#main
+{
+    position: relative;
+    top: 125px;
+}
+
+#footer
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    top: 125px;
+}
+
+.parallax-section
+{
+    background-size: auto auto;
+}
+
+.primary-header
+{
+    padding: 5px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.navbar-default .navbar-nav > li
+{
+    padding-right: 15px;
+}
+
+    .navbar-default .navbar-nav > li a
+    {
+        font-size: 12px;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    .primary-header;
+
+{
+    padding: 5px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.navbar-default .navbar-nav > li
+{
+    padding-right: 20px;
+}
+
+.navbar-nav > li > a
+{
+    font-size: 14px;
+}
+
+.banner-section .banner-slider .hesperiden.tp-bullets
+{
+    bottom: 150px !important;
+}
+
+}
+
+@media(min-width:1200px)
+{
+    .primary-header;
+
+{
+    padding: 5px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+}
+
+.threegridhomecontainer .items .h6
+{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0 30px;
+}
+/*
+.bannerbtn{
+    line-height: 32px !important;
+    font-size: 30px !important;
+}*/
+.sitemaplinks h6
+{
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sitemaplinks ul
+{
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+    .sitemaplinks ul li
+    {
+        float: left;
+        width: 100%;
+        list-style: none;
+    }
+
+        .sitemaplinks ul li:before
+        {
+            content: "-";
+            padding-right: 10px;
+        }
+
+        .sitemaplinks ul li a:hover
+        {
+            padding-left: 10px;
+            color: #ecc731 !important;
+        }
+
+@media(min-width:320px) and (max-width:767px)
+{
+    .vc_row;
+
+{
+    margin-left: 0px !important;
+}
+
+.partner-copy
+{
+    float: left !important;
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.primary-header .social-links a
+{
+    float: right;
+}
+
+.buttonshistory
+{
+    padding: 20px 0 0px 0;
+}
+
+}
+
+
+.ChildRightsIssues > h3
+{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.ChildRightsIssues h2
+{
+    font-size: 22px;
+    color: #ecc731;
+    float: left !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 0 !important;
+}
+
+.recommendationdiv ul li h3
+{
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recommendationdiv ul li
+{
+    list-style-type: lower-roman;
+}
+
+    .recommendationdiv ul li ul li
+    {
+        list-style-type: circle;
+    }
+
+        .recommendationdiv ul li ul li ul li
+        {
+            list-style-type: lower-roman;
+        }
+
+
+
+/*new*/
+.flexblock
+{
+    display: block !important;
+    /*display: -webkit-inline-flex;
+    display: inline-flex;*/
+    align-items: center;
+    -webkit-align-items: center;
+    font-size: 15px !important;
+    padding-right: 12px !important;
+    color: #a3a09b;
+}
+
+.partner-copy
+{
+    float: right;
+    position: relative;
+    margin-top: 5px;
+}
+
+.linkdes
+{
+    padding-left: 2px;
+}
+
+.linkdes-uk
+{
+    padding-left: 4px;
+}
+/*.title{
+    font-size: 15px !important;
+    padding-right: 8px !important;
+}*/
+
+.bdgeimg
+{
+    width: 7%;
+    padding-right: 2px;
+    padding-top: 14px;
+}
+
+
+
+
+/* Blog new */
+
+/*
+.caption{
+    border:1px solid #cccccc;
+}
+*/
+
+.content-wrapper article.blog
+{
+    margin-bottom: 40px;
+    border: 1px solid #cccccc;
+}
+
+.blog-black-bg
+{
+    border: 1px solid #000000;
+    background: #000000;
+    margin-top: 21px;
+}
+
+figure
+{
+    /*margin-left: 2.333333%;*/
+    margin-top: 1.5%;
+}
+
+
+.col-sm-offset-1
+{
+    margin-left: 2.333333% !important;
+}
+
+.post-in .btn-default
+{
+    background: #4d4641 !important;
+    border-color: #4d4641 !i;
+    color: #fff;
+}
+
+.para-padding
+{
+    padding: 23px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.btn-default
+{
+    background: #00C851;
+    border-color: #007E33;
+    color: #ffffff;
+}
+
+    .btn-default:hover
+    {
+        color: #007E33;
+        border-color: #007E33;
+    }
+
+.row .caption
+{
+    width: 95%;
+}
+
+
+/*-------css for homepage footprint --------------*/
+
+
+.media > .pull-left.warning-icon-box
+{
+    margin: 0 0 !important;
+    width: 70px !important;
+    height: 77px;
+}
+
+.media-body.less-width
+{
+    /*width: 75%;*/
+    padding: 10px 16px;
+}
+
+.media-body p
+{
+    line-height: 22px;
+}
+
+article.media.flex
+{
+    width: 80%;
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+    article .media.flex;
+
+{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.media-body.less-width
+{
+    width: 79%;
+    padding: 0 16px;
+}
+
+.media-body p
+{
+    margin: 0 !important;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+}
+/*-------css for homepage footprint -end-------------*/
+
+/*-----------Cry header for mobile--------------------*/
+.tp-parallax-wrap .tp-caption .block.hidden-md.hidden-lg.font-mobile
+{
+    font-size: 17px !important;
+    word-break: break-word;
+    width: 74% !important;
+    white-space: nowrap;
+    height: auto !IMPORTANT;
+}
+
+/*---------------------------------------------------*/
+
+
+/*************Cry-blog********************/
+
+.sb-social
+{
+    float: left;
+    margin: 0px 0 80px -4px;
+}
+
+    .sb-social a
+    {
+        width: 40px;
+        height: 40px;
+        float: left;
+        border: 1px solid #dcd7d7;
+        margin: 0 3px;
+        text-align: center;
+        color: #000000;
+        padding: 5px 0;
+        font-size: 18px;
+    }
+
+
+/*.caption p:nth-child(3) {
+    float: left;
+}
+
+.caption p:nth-child(3) a {
+    margin: 0 !important;
+}*/
+
+.post_tags
+{
+    word-wrap: break-word;
+    padding: 9px 28px;
+}
+
+    .post_tags a
+    {
+        background: #373737;
+        color: #cdcdcd;
+        font-size: 13px;
+        padding: 5px 10px;
+        float: left;
+        margin: 3px 3px;
+    }
+
+.heads-blogs
+{
+    color: #ecc731;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 17px 0 14px 0;
+    font-weight: 100;
+}
+
+span.bord-blog
+{
+    border-top: 2px solid #545454;
+    border-bottom: 2px solid #545454;
+    float: left;
+    width: 100%;
+    height: 10px;
+    margin: 4px 0 -16px 0;
+    z-index: -1;
+}
+
+span.cntshd
+{
+    padding: 0px 11px;
+    z-index: 9999;
+    background: black;
+    font-weight: 100;
+}
+
+.m-b-0
+{
+    margin-bottom: 0;
+}
+
+
+/*.post_tags a:focus, .post_tags a:hover, .post_tags a:active {
+    outline: medium none !important;
+    color: #fff;
+}*/
+/*****************************************/
+
+
+/*---------CRY-ul-Color---------*/
+article.blog ul li, article.blog ul li a
+{
+    color: #000000!important;
+}
+/*----------------------------------*/
+
+
+/*--------------Banner-register--------------------*/
+@media (max-width: 767px) and (min-width: 320px) .bannerbtn a
+{
+    width: 170px !important; text-align: center; padding: 15px 0 10px 15px !important;
+}
+/*-----------------------------------*/

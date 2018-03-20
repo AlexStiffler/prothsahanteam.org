@@ -1,0 +1,647 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Prothsahanteam.master.cs" Inherits="demo_Prothsahanteam" %>
+
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prothsahan Team :: Together Everyone Achieve More, Global Warming, Traffic Sense :: Home</title>
+    <meta name="description" content="Prothsahan Team, Together Everyone Achieve More, Global Warming, Traffic Sense" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/woocommerce.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/chy-style.css" rel="stylesheet" />
+    <link href="css/events_manager.css" rel="stylesheet" />
+    <link href="css/fancybox.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/owl.theme.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/settings.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/vc.css" rel="stylesheet" />
+    <link href="css/woocommerce-layout.css" rel="stylesheet" />
+    <link href="css/woocommerce-smallscreen.css" rel="stylesheet" />
+    <link href="css/prothsahanteam.css" rel="stylesheet" />
+    <link rel='stylesheet' id='Lato-css' href='http://fonts.googleapis.com/css?family=Lato%3Aitalic&#038;subset=latin&#038;ver=4.5.6' type='text/css' media='all' />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/widget.min.js"></script>
+    <script src="js/position.min.js"></script>
+    <script src="js/mouse.min.js"></script>
+    <script src="js/sortable.min.js"></script>
+    <%-- <script src="js/datepicker.min.js"></script>--%>
+    <script src="js/menu.min.js"></script>
+    <script src="js/wp-a11y.min.js"></script>
+    <script src="js/autocomplete.min.js"></script>
+    <script src="js/resizable.min.js"></script>
+    <script src="js/draggable.min.js"></script>
+    <script src="js/button.min.js"></script>
+    <script src="js/dialog.min.js"></script>
+    <script src="js/events-manager.js"></script>
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/add-to-cart.min.js"></script>
+    <script src="js/woocommerce-add-to-cart.js"></script>
+    <script src="../js/Validate.js"></script>
+    <script src="Admin/js/bootstrap-datepicker.js"></script>
+    <link href="Admin/css/datepicker.css" rel="stylesheet" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <style type="text/css" data-type="vc_custom-css">
+        .article-list .items h3
+        {
+            font-size: 15px;
+            min-height: 35px;
+        }
+
+        .parallax-section h2
+        {
+            color: #fff;
+        }
+
+        .our-causes .flex-control-paging
+        {
+            margin-bottom: 0px;
+        }
+
+        .testimonial-slider blockquote footer
+        {
+            margin-bottom: 5px;
+        }
+
+        .testimonial-slider blockquote p
+        {
+            font-size: 16px;
+        }
+
+        .parallax-section p
+        {
+            color: #ffffff !important;
+        }
+
+        .parallax-section .btn
+        {
+            color: #fff;
+        }
+
+        .social-icons li a i
+        {
+            color: #32302F;
+        }
+
+        .bannerbtn
+        {
+            text-transform: capitalize;
+        }
+
+        .navbar-nav li > .dropdown-menu
+        {
+            background: #00b448;
+            opacity: 1.0;
+        }
+
+        .hesperiden .tp-bullet
+        {
+            border: 3px solid #00C851!important;
+            background: transparent!important;
+        }
+
+            .hesperiden .tp-bullet:hover, .hesperiden .tp-bullet.selected
+            {
+                background: #00C851!important;
+            }
+
+        .bannerbtn a
+        {
+            margin-top: 20px !important;
+            float: left;
+            color: #ffffff;
+            padding: 12px 31px !important;
+            letter-spacing: 2px !important;
+            font-weight: 400 !important;
+            font-size: 14px !important;
+            border: 1px solid #ffffff !important;
+            text-transform: uppercase !important;
+            font-family: 'latoblack', sans-serif;
+        }
+
+            .bannerbtn a:hover
+            {
+                color: #fff;
+                background-color: #ecc731 !important;
+                border-color: #ecc731 !important;
+            }
+
+        .tp-parallax-wrap .btn-default
+        {
+            border-color: #fff;
+            color: #fff;
+        }
+
+        .testimonial-slider h2
+        {
+            color: #32302f;
+        }
+
+        h2 strong, .h2 strong
+        {
+            border-bottom-color: #32302f;
+        }
+
+        .testimonial-slider blockquote p
+        {
+            color: #32302f;
+        }
+
+        .testimonial-slider blockquote footer span, .testimonial-slider blockquote cite
+        {
+            color: #32302f;
+        }
+
+        .overlay
+        {
+            background: #fbfaf8;
+        }
+
+
+        .help-list .media
+        {
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .testimonial-slider .flex-control-paging a
+        {
+            border: 2px solid #32302f !important;
+        }
+
+            .testimonial-slider .flex-control-paging a.flex-active
+            {
+                background: #32302f !important;
+            }
+
+        .testimonial
+        {
+            background: none !important;
+        }
+
+        .testimonial-slider blockquote footer .more-link.btn.btn-default
+        {
+            margin: 25px auto 0;
+        }
+
+        .our-causes h2
+        {
+            font-weight: 300;
+            margin-bottom: 0 !important;
+        }
+
+        .help-list .media h3
+        {
+            margin-bottom: 0;
+        }
+
+        .media-body p
+        {
+            margin: 0 !important;
+        }
+
+        .media > .pull-left.warning-icon-box
+        {
+            margin-right: 20px;
+        }
+
+        @media(min-width:320px) and (max-width:767px)
+        {
+            .adjustbannertextformobile;
+
+        {
+            display: none;
+        }
+
+        #slide-23-layer-3 strong
+        {
+            font-size: 11px !important;
+        }
+
+        #slide-1-layer-5
+        {
+            top: 53px;
+        }
+
+        #slide-2-layer-3
+        {
+            top: 40px;
+        }
+
+        .bannerbtn a
+        {
+            width: 170px !important;
+            text-align: center;
+            padding: 15px 0 10px !important;
+        }
+
+        .how-to-help .help-list .media h3
+        {
+            margin-bottom: 0;
+        }
+
+        .media
+        {
+            float: left;
+            width: 100%;
+        }
+
+        }
+
+        @media(min-width:768px) and (max-width:991px)
+        {
+            .tp-caption;
+
+        {
+            left: 150px !important;
+        }
+
+        .media
+        {
+            float: left;
+            width: 50%;
+            margin-bottom: 5px !important;
+        }
+
+        .threegridhomecontainer .items .h6
+        {
+            min-height: 70px;
+            font-size: 13px;
+        }
+
+        .embed-responsive img
+        {
+            float: left;
+            width: 100%;
+        }
+
+        .embed-responsive iframe
+        {
+            float: left;
+            width: 100%;
+        }
+
+        .media-body p
+        {
+            font-size: 13px;
+        }
+
+        }
+
+        @media(min-width:992px) and (max-width:1199px)
+        {
+            .tp-caption;
+
+        {
+            left: 150px !important;
+        }
+
+        }
+
+        .help-list .media
+        {
+            margin: 0;
+        }
+
+        @media(min-width:320px) and (max-width:479px)
+        {
+            .media > .pull-left.warning-icon-box;
+
+        {
+            margin-right: 10px;
+            max-width: 60px;
+            width: 100%;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .parallax-section
+        {
+            background-size: cover;
+            background-position: center center !important;
+        }
+
+        }
+
+        @media(min-width:480px) and (max-width:639px)
+        {
+            .media > .pull-left.warning-icon-box;
+
+        {
+            margin-bottom: 5px;
+        }
+
+        }
+
+        @media(min-width:640px) and (max-width:767px)
+        {
+            .embed-responsive-16by9 img;
+
+        {
+            width: 100%;
+        }
+
+        .help-list .media
+        {
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        }
+
+        .lowerclass
+        {
+            text-transform: lowercase !important;
+        }
+
+        .modal-header h2
+        {
+            color: #000 !important;
+        }
+    </style>
+
+</head>
+<body class="home page page-id-172 page-template page-template-charity-home-one page-template-charity-home-one-php wpb-js-composer js-comp-ver-4.11.2 vc_responsive">
+    <form id="form1" runat="server">
+        <div id="wrapper" class="full-width">
+            <header id="header">
+                <div class="container">
+                    <div class="row primary-header">
+                        <a href="index.aspx" class="col-xs-12 col-sm-2 brand" title="Prothsahan Team">
+                            <img src="img/Prothsahan-Team-logo.png" /></a>
+                        <div class="social-links col-xs-12 col-sm-10 hidden-xs" style="margin-top: 25px;">
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <ul class="social-icons hidden-xs">
+                                            <li class="social-facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="social-twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="social-linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="social-youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                                            <li class="social-instagram"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="col-sm-12">
+                                        <a href="VolunteerRegistration.aspx" class="btn btn-volunteer">Volunteer</a>
+                                        <a href="DonationMst.aspx" class="btn btn-volunteerreverse">Donate Now</a>
+                                            </div>
+                                        <div class="row">
+                                            <div class="col-sm-7">
+                                                <img src="img/yemp.jpg"  class="pull-right" style=" margin-right: -60px;"/>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <div class="col-sm-12">
+                                                <a href="EmployerInfo.aspx" class=" btn-success btn-sm"  style="float: right;margin-top:10px;"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Employer Zone</a>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                <a href="EmployeeJone.aspx" class=" btn-success btn-sm" style="float: right; margin-top:5px;"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Employee Zone</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <nav class="menu-header-menu-container">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.aspx">Home</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3114 submenu-icon">
+                                        <a href="aimsobjectives.aspx" data-toggle="dropdown">About us</a>
+                                        <div class="dropdown-menu">
+                                            <ul class="sub-menu menu-odd  menu-depth-1">
+                                                <li><a href="aimsobjectives.aspx">Aim and Objective</a></li>
+                                                <li><a href="registration.aspx">Join Us</a></li>
+                                                <li><a href="OurTeam.aspx">Our Team</a></li>
+                                                <li><a href="ContactUs.aspx">Contact Detail</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="PresidentMessage.aspx">President's Message</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3115 submenu-icon">
+                                        <a href="Health-care-awarness.aspx" data-toggle="dropdown">Our Focus</a>
+                                        <div class="dropdown-menu">
+                                            <ul class="sub-menu menu-odd  menu-depth-1">
+                                                <li>
+                                                    <a href="Health-care-awarness.aspx">Health Care Awareness</a></li>
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Global Warming</a>
+                                                    <ul class="dropdown-menu" style="min-width: 370px;">
+                                                        <li><a href="globalWarming.aspx" id="sub-menu-a">Global Warming </a></li>
+                                                        <li><a href="globalwarmingprevention.aspx" id="sub-menu-a">Prevention of Global Warming</a></li>
+                                                        <li><a href="Appeal.aspx" id="sub-menu-a">Appeal to Youth</a></li>
+                                                        <li><a href="workshop.aspx" id="sub-menu-a">Interactive Workshops for the Students</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="Traffic-sense.aspx">Traffic Sense</a></li>
+                                                <li><a href="Consumer-Awareness.aspx">Consumer Awareness</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3115 submenu-icon">
+                                        <a href="Events.aspx" data-toggle="dropdown">News and Views</a>
+                                        <div class="dropdown-menu">
+                                            <ul class="sub-menu menu-odd  menu-depth-1">
+                                                <li><a href="Events.aspx">Events</a></li>
+                                                <li><a href="Press.aspx">Press Release</a></li>
+                                                <li><a href="ImageGallery.aspx">Photo Gallery</a></li>
+                                              <%--  <li><a href="DonationMst.aspx">Lists of Volunteer</a></li>--%>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3115 submenu-icon">
+                                        <a href="FAQ-GlobalWarming.aspx" data-toggle="dropdown">FAQ</a>
+                                        <div class="dropdown-menu">
+                                            <ul class="sub-menu menu-odd  menu-depth-1">
+                                                <li><a href="FAQ-GlobalWarming.aspx">About Global Warming</a></li>
+                                                <li><a href="FAQ-EyeDonation.aspx">About Organ Donating</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <style>
+                    #owl-demo .item, .products li
+                    {
+                        margin: 0;
+                    }
+                </style>
+            </header>
+            <!-- Header Section End Here -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--Footer Section Start Here -->
+            <footer id="footer" class="second-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 dividefooterformobileandtablet">
+                            <div class="footer-logo">
+                                <h6>About Us</h6>
+                            </div>
+
+                            <div class="menu-footer-widget-menu-about-us-container">
+                                <ul id="menu-footer-widget-menu-about-us" class="menu">
+                                    <li><a href="aimsobjectives.aspx">Aim and Objective</a></li>
+                                    <li><a href="VolunteerRegistration.aspx">Join Us</a></li>
+                                    <li><a href="OurTeam.aspx">Our Team</a></li>
+                                    <li><a href="ContactUs.aspx">Contact Detail</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-logo" style="margin-top: 60px;">
+                                <h6>News and Views</h6>
+                            </div>
+
+                            <div class="menu-footer-widget-menu-about-us-container">
+                                <ul id="Ul1" class="menu">
+                                    <li><a href="Events.aspx">Events</a></li>
+                                    <li><a href="Press.aspx">Press Release</a></li>
+                                    <li><a href="Photo-Gallery.aspx">Photo Gallery</a></li>
+                                    <li><a href="Donors.aspx">Lists of Donor</a></li>
+                                    <li><a href="career.aspx">Career</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 twitter-update footer-nav dividefooterformobileandtablet hidden-xs">
+                            <h6>Our Sponser</h6>
+                            <div class="menu-creating-impact-footer-menu-container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="img/sponser1.jpg" class="img-sponser" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="img/sponser2.jpg" class="img-sponser" />
+                                    </div>
+                                     <p>&nbsp;</p>
+                                    <div class="col-sm-6 ">
+                                        <img src="img/sponser3.jpg" class="img-sponser" />
+                                    </div>
+                                    <div class="col-sm-6 ">
+                                        <img src="img/sponser4.jpg" class="img-sponser" />
+                                    </div>
+                                     
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.3088610267127!2d77.31472821508366!3d28.680406082398946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfba7146aaaab%3A0x3365d532184e949e!2sProthsahan+Team!5e0!3m2!1sen!2s!4v1502185834778" style="width: 100%;" height="365" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <span>Copyright © 2017 <span style="color: #007E33">Prothsahan Team </span>- Together Everyone Achieve More. All rights reserved. </span><span style="float: right;">Regn. No: S/S8039/2007, Dated: 7th March 2007</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--Footer Section End Here -->
+        </div>
+        <!--Success Modal Templates-->
+        <div id="modal-success" class="modal modal-message modal-success fade" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                    </div>
+                    <div class="modal-title">Success</div>
+                    <div class="modal-body">Form Submitted!</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+                <!-- / .modal-content -->
+            </div>
+            <!-- / .modal-dialog -->
+        </div>
+        <!--Danger Modal Templates-->
+        <div id="modal-warning" class="modal modal-message modal-warning fade" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                    </div>
+                    <div class="modal-title">Warning</div>
+
+                    <div class="modal-body">Form not Submitted?</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+                <!-- / .modal-content -->
+            </div>
+            <!-- / .modal-dialog -->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/darkbox.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $("#owl-demo").owlCarousel({
+                    navigation: true,
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    autoPlay: true,
+                    singleItem: true,
+                    transitionStyle: 'fadeUp'
+                });
+                $("#owl-demo1").owlCarousel({
+                    navigation: true,
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    autoPlay: true,
+                    singleItem: true,
+                    transitionStyle: 'backSlide'
+                });
+                $("#owl-demo2").owlCarousel({
+                    navigation: true,
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    autoPlay: true,
+                    singleItem: true,
+                    transitionStyle: 'fade'
+                });
+
+            });
+        </script>
+        <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    </form>
+</body>
+</html>

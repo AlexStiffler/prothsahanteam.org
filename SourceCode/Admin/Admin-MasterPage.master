@@ -1,0 +1,232 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin-MasterPage.master.cs" Inherits="demo_Admin_Admin_MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title>Prothsahan Team | Admin Portal</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- toast CSS -->
+    <link href="plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <!-- morris CSS -->
+    <link href="plugins/bower_components/morrisjs/morris.css" rel="stylesheet">
+    <!-- chartist CSS -->
+    <link href="plugins/bower_components/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <link href="css/datepicker.css" rel="stylesheet" />
+    <script src="../js/Validate.js"></script>
+    <script src="../js/uploadFiles.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <style>
+        .table-bordered, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th
+        {
+            border-top: none;
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th
+        {
+            padding: 10px 10px;
+        }
+
+        .navbar-header
+        {
+            background: #00C851;
+            border-bottom-color: #007E33;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        }
+    </style>
+</head>
+
+<body class="fix-header">
+    <form id="form1" runat="server">
+        <div id="errorMsgDIV" class="modal modal-message modal-danger" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog" style="margin: 0; padding: 10px 0; margin: 0 auto">
+                <div class="modal-content ">
+                    <div class="modal-header container-fluid">
+                        <i class="glyphicon glyphicon-fire" style="color: #f33155;"></i>
+                        <h3 style="display: inline; color: #f33155;">Alert</h3>
+                    </div>
+                    <div class="modal-body container-fluid"><span id="errorMsg" class="message-style"></span></div>
+                    <div class="modal-footer container-fluid">
+                        <input id="CloseError" type="button" class="btn btn-danger" data-dismiss="modal" value="OK" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="successMsgDIV" class="modal modal-message modal-success" aria-hidden="true">
+            <div class="modal-dialog" style="margin: 0; padding: 10px 0; margin: 0 auto">
+                <div class="modal-content">
+                    <div class="modal-header"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="modal-title">Success</div>
+                    <div class="modal-body"><span id="successMessage" class="message-style"></span></div>
+                    <div class="modal-footer">
+                        <input id="CloseSuccess" type="button" class="btn btn-success" data-dismiss="modal" value="OK" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Preloader -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Wrapper -->
+        <!-- ============================================================== -->
+        <div id="wrapper">
+            <!-- ============================================================== -->
+            <!-- Topbar header - style you can find in pages.scss -->
+            <!-- ============================================================== -->
+            <nav class="navbar navbar-default navbar-static-top m-b-0">
+                <div class="navbar-header">
+                    <div class="top-left-part">
+                        <!-- Logo -->
+                        <a class="logo" href="ViewRegistration.aspx">
+                            <!-- Logo icon image, you can use font-icon also -->
+                            <!-- Logo text image you can use text also -->
+                            <span class="hidden-xs">
+                                <img src="../img/Prothsahan-Team-logo-min.png" />
+                            </span></a>
+                    </div>
+                    <!-- /Logo -->
+                    <ul class="nav navbar-top-links navbar-right pull-right">
+                        <li>
+                            <a class="profile-pic" href="#">
+                                <img src="../img/Admin-pic.png" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Welcome, ADMIN</b></a>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lbtnSignOut" runat="server" OnClick="lbtnSignOut_Click" Text="Sign Out"></asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-header -->
+                <!-- /.navbar-top-links -->
+                <!-- /.navbar-static-side -->
+            </nav>
+            <!-- End Top Navigation -->
+            <!-- ============================================================== -->
+            <!-- Left Sidebar - style you can find in sidebar.scss  -->
+            <!-- ============================================================== -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav slimscrollsidebar">
+                    <div class="sidebar-head">
+                        <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span><span class="hide-menu">Navigation</span></h3>
+                    </div>
+                    <ul class="nav" id="side-menu">
+                        <!--  <li style="padding: 70px 0 0;">
+                        <a href="Master-Index.aspx" class="waves-effect">&nbsp;<i class="fa fa-spin fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Dashboard</a>
+                    </li>-->
+                        <li style="padding: 70px 0 0;">
+                            <a href="ViewRegistration.aspx" class="waves-effect"><i class="fa fa-users fa-fw" aria-hidden="true"></i>View Registration</a>
+                        </li>
+                        <li>
+                            <a href="Enquiry.aspx" class="waves-effect"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>View Enquiry</a>
+                        </li>
+                        <li>
+                            <a href="Upload-News.aspx" class="waves-effect"><i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>Upload News / Events</a>
+                        </li>
+                        <%-- <li>
+                            <a href="ImageCategory.aspx" class="waves-effect"><i class="fa fa-file-image-o fa-fw" aria-hidden="true"></i>Create Photo Gallery</a>
+                        </li>--%>
+                        <li>
+                            <a href="Upload-Gallery.aspx" class="waves-effect"><i class="fa fa-file-image-o fa-fw" aria-hidden="true"></i>Upload Photo Gallery</a>
+                        </li>
+                        <li>
+                            <a href="Employer_zone.aspx" class="waves-effect"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Employer Zone</a>
+                        </li>
+                        <li>
+                            <a href="Employee_zone.aspx" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Employee Zone</a>
+                        </li>
+                        <li>
+                            <a href="Donor.aspx" class="waves-effect"><i class="fa fa-users fa-fw" aria-hidden="true"></i>View Donor</a>
+                        </li>
+                        <li>
+                            <a href="../Index.aspx" class="waves-effect"><i class="fa fa-arrow-circle-left fa-fw" aria-hidden="true"></i>Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div id="page-wrapper">
+                    <div class="container-fluid">
+                        <asp:ScriptManager ID="scriptma" runat="server" AsyncPostBackTimeout="360000"></asp:ScriptManager>
+                        <asp:UpdatePanel ID="up" runat="server" ChildrenAsTriggers="true" UpdateMode="Conditional">
+                            <ContentTemplate>
+                                <!-- /row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p>&nbsp;</p>
+                                        <div class="white-box">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                    <footer class="footer text-center">
+                        <script>document.write(new Date().getFullYear())</script>
+                        &copy; Prothsahan Team brought to you by <a href="http://www.jupsoft.com" target="_blank">Jupsoft.com</a>
+                    </footer>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Wrapper -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- All Jquery -->
+            <!-- ============================================================== -->
+            <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+            <!-- Menu Plugin JavaScript -->
+            <script src="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+            <!--slimscroll JavaScript -->
+            <script src="js/jquery.slimscroll.js"></script>
+            <!--Wave Effects -->
+            <script src="js/waves.js"></script>
+            <!--Counter js -->
+            <script src="plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
+            <script src="plugins/bower_components/counterup/jquery.counterup.min.js"></script>
+            <!-- chartist chart -->
+            <script src="plugins/bower_components/chartist-js/dist/chartist.min.js"></script>
+            <script src="plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+            <!-- Sparkline chart JavaScript -->
+            <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+            <!-- Custom Theme JavaScript -->
+            <script src="js/custom.min.js"></script>
+            <script src="js/dashboard1.js"></script>
+            <script src="plugins/bower_components/toast-master/js/jquery.toast.js"></script>
+    </form>
+</body>
+
+</html>
