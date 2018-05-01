@@ -14,9 +14,9 @@
 
     if (id != "") {
         debugger;
-        //var url = 'http://localhost:60092/Upload.ashx?id=' + id.substring(1);
-        var url = 'Upload.ashx?id=' + id.substring(1);
-         alert(url);
+       var url = '../Upload.ashx?id=' + id.substring(1);
+      //  var url = 'http://www.prothsahanteam.org/Admin/Upload.ashx?id=' + id.substring(1);
+         //alert(url);
         jQuery.ajax({
             url: url,
             data: data,

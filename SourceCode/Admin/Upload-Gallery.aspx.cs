@@ -94,10 +94,13 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
                             if (Directory.Exists(Server.MapPath(FilePath1)) == false)
                                 Directory.CreateDirectory(Server.MapPath(FilePath1));
                             HttpPostedFile postedfile = dictionary[key] as HttpPostedFile;
-
+                            
                             filePath = bClass.SaveFile(postedfile, FilePath1, true);
-                            ImageName = filePath.Split('/').Last();
-                            dtSubmitData.Rows.Add(txtImgName.Text, ImageName, filePath);
+                            if (filePath != string.Empty)
+                            {
+                                ImageName = filePath.Split('/').Last();
+                                dtSubmitData.Rows.Add(txtImgName.Text, ImageName, filePath);
+                            }
                         }
                     }
                 }
@@ -141,35 +144,24 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
     {
         try
         {
-            SqlCommand cmd = new SqlCommand("STP_ManageImageGallery", sqlcon);
-            cmd.CommandType = CommandType.StoredProcedure;
-            int count = 0;
-            foreach (RepeaterItem ri in RepMultipleUpload.Items)
-            {
-                TextBox txtImgTitle = ri.FindControl("txtImgTitle") as TextBox;
-                FileUpload flupload = ri.FindControl("Futransfer") as FileUpload;
-                CheckBox chkChildDelete = ri.FindControl("chkChildDelete") as CheckBox;
-                if (txtImgTitle.Text.Trim() != "" && flupload != null && chkChildDelete.Checked)
-                {
-                    count++;
-
-                }
-            }
-            if (count == 0)
+          DataTable dt=TableType();
+            if (dt.Rows.Count == 0)
             {
                 TextBox txtImgTitle = RepMultipleUpload.Items[0].FindControl("txtImgTitle") as TextBox;
                 RunJavaScriptFunction("ErrorMessage('Enter atleast one record to upload.','" + txtImgTitle.ClientID + "' )");
                 return;
             }
             string filename = string.Empty;
-
+            SqlCommand cmd = new SqlCommand("STP_ManageImageGallery", sqlcon);
+            cmd.CommandType = CommandType.StoredProcedure;
+          
             if (hdnImgID.Value == "" || hdnImgID.Value == null)
             {
-
+              
                 cmd.Parameters.AddWithValue("@Action", "Insert");
                 cmd.Parameters.AddWithValue("@CategoryId", ddlCategory.SelectedValue);
                 cmd.Parameters.AddWithValue("@Posteddate", DateTime.Now);
-                cmd.Parameters.AddWithValue("@ImageGallery", TableType());
+                cmd.Parameters.AddWithValue("@ImageGallery", dt);
 
                 sqlcon.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -181,25 +173,25 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
             }
             else
             {
+                
                 if (Session["Path"] != null)
                 {
                     if (File.Exists(Server.MapPath(hdnimgName.Value)))
                     {
                         File.Delete(Server.MapPath(hdnimgName.Value));
                     }
-                    Dictionary<string, HttpPostedFile> dictionary = Session["Path"] as Dictionary<string, HttpPostedFile>;
-                    foreach (string key in dictionary.Keys)
-                    {
-                        DataTable dtSubmitData = new DataTable();
-                        dtSubmitData.Columns.Add("Imagename");
-                        dtSubmitData.Columns.Add("FilePath");
-                        HttpPostedFile postedfile = dictionary[key] as HttpPostedFile;
-                        string FilePath = "~/Worksheet/ImageGallery/";
-                        filePath = bClass.SaveFile(postedfile, FilePath, true);
-                        ImageName = filePath.Split('/').Last();
-                        dtSubmitData.Rows.Add("", ImageName, filePath);
-                    }
-                    HttpContext.Current.Session["Path"] = null;
+
+                    //Dictionary<string, HttpPostedFile> dictionary = Session["Path"] as Dictionary<string, HttpPostedFile>;
+                    //foreach (string key in dictionary.Keys)
+                    //{
+                      
+                    //    HttpPostedFile postedfile = dictionary[key] as HttpPostedFile;
+                    //    string FilePath = "~/Worksheet/ImageGallery/";
+                    //    filePath = bClass.SaveFile(postedfile, FilePath, true);
+                    //    ImageName = filePath.Split('/').Last();
+                    //    dtSubmitData.Rows.Add("", ImageName, filePath);
+                    //}
+                    //HttpContext.Current.Session["Path"] = null;
                 }
                 else
                 {
@@ -217,7 +209,7 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
                 cmd.Parameters.AddWithValue("@Action", "Update");
                 cmd.Parameters.AddWithValue("@CategoryId", ddlCategory.SelectedValue);
                 cmd.Parameters.AddWithValue("@Posteddate", DateTime.Now);
-                cmd.Parameters.AddWithValue("@ImageGallery", TableType());
+                cmd.Parameters.AddWithValue("@ImageGallery", dt);
 
                 sqlcon.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -231,8 +223,9 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
         {
             ex.ToString();
         }
-        bindRepeater();
+      
         Reset();
+        bindRepeater();
 
     }
 
@@ -361,7 +354,8 @@ public partial class demo_Admin_Upload_Gallery : BaseClass
     private void Reset()
     {
         ViewState["dt"] = null;
+        Session["Path"] = null;
         BindImageGalleryDetails();
-
+        
     }
 }

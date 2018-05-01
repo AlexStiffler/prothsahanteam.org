@@ -217,8 +217,8 @@
                                             <th>Category
                                             </th>
 
-                                            <th data-sortable="false">Edit
-                                            </th>
+                                            <%--<th data-sortable="false">Edit
+                                            </th>--%>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -248,15 +248,14 @@
                                         <asp:Label ID="lblCategory" runat="server" Visible="false" Text='<%#Eval("Categoryid") %>' />
                                         <asp:Label ID="lblCategory1" runat="server" Text='<%#Eval("CategoryName") %>' />
                                     </td>
-
-                                    <td>
+                                    <%--<td>
                                         <div class="btn-group btn-group-xs">
                                             <asp:LinkButton ID="lbtnEdit" ToolTip="Edit" runat="server" OnClick="lbtnEdit_Click"
                                                 CssClass="fa fa-edit"></asp:LinkButton>
                                             <asp:LinkButton ID="lnkupdate" Visible="false" ToolTip="Edit" Text="Update" runat="server" OnClientClick="callFunc(this);"
                                                 OnClick="lnkupdate_Click"></asp:LinkButton>
                                         </div>
-                                    </td>
+                                    </td>--%>
                                 </tr>
                             </ItemTemplate>
                             <FooterTemplate>

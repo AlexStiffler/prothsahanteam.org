@@ -100,11 +100,11 @@
                         <asp:Label ID="lblDonationType" runat="server" Text='<%#Eval("DonationType")%>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="Amount">
+             <%--   <asp:TemplateField HeaderText="Amount">
                     <ItemTemplate>
                         <asp:Label ID="lblAmount" runat="server" Text='<%#Eval("Amount")%>' />
                     </ItemTemplate>
-                </asp:TemplateField>
+                </asp:TemplateField>--%>
             </Columns>
         </asp:GridView>
     </div>
